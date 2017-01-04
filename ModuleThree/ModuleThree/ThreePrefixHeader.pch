@@ -1,0 +1,19 @@
+//
+//  ThreePrefixHeader.pch
+//  ModuleThree
+//
+//  Created by 方正 on 2016/12/27.
+//  Copyright © 2016年 fang. All rights reserved.
+//
+
+#ifndef ThreePrefixHeader_pch
+#define ThreePrefixHeader_pch
+
+#import "ResourceReader.h"
+#import "UIViewAdditions.h"
+#define StotyboardName @"ThreeSB"
+#define bundleName @"ModuleThreeResource"
+#define UIImageNamed(imageName)           UIImageNamedFromBundle(imageName,bundleName)
+#define UIStoryBoardNamed(storyboardName) UIStoryBoardNamedFromBundle(storyboardName,bundleName)
+
+#endif /* ThreePrefixHeader_pch */

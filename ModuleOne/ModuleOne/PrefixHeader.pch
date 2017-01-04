@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  ModuleOne
+//
+//  Created by 方正 on 2016/12/23.
+//  Copyright © 2016年 fang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ResourceReader.h"
+#import "UIViewAdditions.h"
+#import "FZHTTPRequestNetWorking.h"
+
+#define StotyboardName @"Main"
+#define bundleName @"ModuleOneResource"
+#define UIImageNamed(imageName)           UIImageNamedFromBundle(imageName,bundleName)
+#define UIStoryBoardNamed(storyboardName) UIStoryBoardNamedFromBundle(storyboardName,bundleName)
+#endif /* PrefixHeader_pch */

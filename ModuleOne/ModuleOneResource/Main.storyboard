@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Vzq-EG-Mfn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="sDx-Mk-y6W">
+            <objects>
+                <navigationController id="Vzq-EG-Mfn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="V6d-cq-G1r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.15725905195116185" green="0.63502248024936903" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZeU-N5-fx2" kind="relationship" relationship="rootViewController" id="f1S-W0-s7C"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GB2-sU-YpN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-918" y="50"/>
+        </scene>
+        <!--动态-->
+        <scene sceneID="905-X9-4pi">
+            <objects>
+                <viewController storyboardIdentifier="FZViewController" id="ZeU-N5-fx2" customClass="FZViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ebj-hc-hbq"/>
+                        <viewControllerLayoutGuide type="bottom" id="G7I-4a-uzG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="srp-AG-HkK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="动态" image="dong.png" id="cMv-qY-ouz"/>
+                    <navigationItem key="navigationItem" title="动态" id="29o-fe-vMp">
+                        <barButtonItem key="rightBarButtonItem" title="next" id="6ua-2Y-BZa">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="htO-av-GKC" kind="push" identifier="goToNext" id="tjN-A7-Dqa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wQ7-ff-LtC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-138" y="50"/>
+        </scene>
+        <!--next-->
+        <scene sceneID="5By-cD-kXh">
+            <objects>
+                <viewController id="htO-av-GKC" customClass="FZNextViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J3H-Ce-fMm"/>
+                        <viewControllerLayoutGuide type="bottom" id="wF8-NP-6VL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7RT-4X-nTV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaY-Kf-ADz">
+                                <rect key="frame" x="115" y="243" width="144" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1450980392" green="0.86666666670000003" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="openBtn:" destination="htO-av-GKC" eventType="touchUpInside" id="IRE-fI-0XS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="next" id="Ufl-hJ-Ewc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5wK-cK-AWu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="588" y="42"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dong.png" width="26" height="26"/>
+    </resources>
+</document>

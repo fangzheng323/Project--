@@ -1,0 +1,24 @@
+//
+//  TwoPrefixHeader.pch
+//  ModuleTwo
+//
+//  Created by 方正 on 2016/12/27.
+//  Copyright © 2016年 fang. All rights reserved.
+//
+
+#ifndef TwoPrefixHeader_pch
+#define TwoPrefixHeader_pch
+
+#import "ResourceReader.h"
+#import "UIViewAdditions.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+
+
+#define StotyboardName @"TwoSB"
+#define bundleName @"ModuleTwoResource"
+#define UIImageNamed(imageName)           UIImageNamedFromBundle(imageName,bundleName)
+#define UIStoryBoardNamed(storyboardName) UIStoryBoardNamedFromBundle(storyboardName,bundleName)
+
+#endif /* TwoPrefixHeader_pch */
