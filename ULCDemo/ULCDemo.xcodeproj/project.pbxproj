@@ -19,6 +19,8 @@
 		329A3B691E0D1B3400E24E20 /* CommonTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329A3B661E0D1AE200E24E20 /* CommonTool.framework */; };
 		329A3BAD1E0D1E4000E24E20 /* ModuleThree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329A3B9B1E0D1D9E00E24E20 /* ModuleThree.framework */; };
 		329A3BAE1E0D1E4500E24E20 /* ModuleThreeResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 329A3BAC1E0D1E3A00E24E20 /* ModuleThreeResource.bundle */; };
+		32B910381E1E43A000594B10 /* CustomModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B910081E1E419C00594B10 /* CustomModule.framework */; };
+		32B910391E1E43A800594B10 /* CustomResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 32B910371E1E438400594B10 /* CustomResource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +136,34 @@
 			remoteGlobalIDString = 329A3BA01E0D1DC700E24E20;
 			remoteInfo = ModuleThreeResource;
 		};
+		32B910071E1E419C00594B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B910031E1E419C00594B10 /* CustomModule.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 32B90FF81E1E415400594B10;
+			remoteInfo = CustomModule;
+		};
+		32B910311E1E438400594B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B910031E1E419C00594B10 /* CustomModule.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B90FF71E1E415400594B10;
+			remoteInfo = CustomModule;
+		};
+		32B910331E1E438400594B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B910031E1E419C00594B10 /* CustomModule.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B9102A1E1E430200594B10;
+			remoteInfo = CustomResource;
+		};
+		32B910361E1E438400594B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B910031E1E419C00594B10 /* CustomModule.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 32B9102B1E1E430200594B10;
+			remoteInfo = CustomResource;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +178,7 @@
 		329A3B3F1E0D19EA00E24E20 /* ModuleList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModuleList.plist; sourceTree = "<group>"; };
 		329A3B611E0D1AE200E24E20 /* CommonTool.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonTool.xcodeproj; path = ../CommonTool/CommonTool.xcodeproj; sourceTree = "<group>"; };
 		329A3B961E0D1D9E00E24E20 /* ModuleThree.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModuleThree.xcodeproj; path = ../ModuleThree/ModuleThree.xcodeproj; sourceTree = "<group>"; };
+		32B910031E1E419C00594B10 /* CustomModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomModule.xcodeproj; path = ../CustomModule/CustomModule.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B910381E1E43A000594B10 /* CustomModule.framework in Frameworks */,
 				327006911E12033A007C915C /* FZModel.framework in Frameworks */,
 				329A3BAD1E0D1E4000E24E20 /* ModuleThree.framework in Frameworks */,
 				329A3B691E0D1B3400E24E20 /* CommonTool.framework in Frameworks */,
@@ -184,6 +216,7 @@
 				329A3AE41E0CFB4A00E24E20 /* ModuleOne.xcodeproj */,
 				329A3B1C1E0D0B9400E24E20 /* ModuleTwo.xcodeproj */,
 				329A3B961E0D1D9E00E24E20 /* ModuleThree.xcodeproj */,
+				32B910031E1E419C00594B10 /* CustomModule.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -250,6 +283,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		32B910041E1E419C00594B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B910081E1E419C00594B10 /* CustomModule.framework */,
+				32B910371E1E438400594B10 /* CustomResource.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +306,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				32B910321E1E438400594B10 /* PBXTargetDependency */,
+				32B910341E1E438400594B10 /* PBXTargetDependency */,
 				327006901E120333007C915C /* PBXTargetDependency */,
 				329A3BA71E0D1E3A00E24E20 /* PBXTargetDependency */,
 				329A3BA91E0D1E3A00E24E20 /* PBXTargetDependency */,
@@ -309,6 +353,10 @@
 				{
 					ProductGroup = 329A3B621E0D1AE200E24E20 /* Products */;
 					ProjectRef = 329A3B611E0D1AE200E24E20 /* CommonTool.xcodeproj */;
+				},
+				{
+					ProductGroup = 32B910041E1E419C00594B10 /* Products */;
+					ProjectRef = 32B910031E1E419C00594B10 /* CustomModule.xcodeproj */;
 				},
 				{
 					ProductGroup = 3270068A1E1202DD007C915C /* Products */;
@@ -391,6 +439,20 @@
 			remoteRef = 329A3BAB1E0D1E3A00E24E20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		32B910081E1E419C00594B10 /* CustomModule.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CustomModule.framework;
+			remoteRef = 32B910071E1E419C00594B10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32B910371E1E438400594B10 /* CustomResource.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CustomResource.bundle;
+			remoteRef = 32B910361E1E438400594B10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -402,6 +464,7 @@
 				329A3AC81E0CFA5D00E24E20 /* LaunchScreen.storyboard in Resources */,
 				329A3AC51E0CFA5D00E24E20 /* Assets.xcassets in Resources */,
 				329A3B061E0D05CE00E24E20 /* ModuleOneResource.bundle in Resources */,
+				32B910391E1E43A800594B10 /* CustomResource.bundle in Resources */,
 				327006A41E12340D007C915C /* ModuleTwoResource.bundle in Resources */,
 				329A3BAE1E0D1E4500E24E20 /* ModuleThreeResource.bundle in Resources */,
 			);
@@ -460,6 +523,16 @@
 			isa = PBXTargetDependency;
 			name = ModuleThreeResource;
 			targetProxy = 329A3BA81E0D1E3A00E24E20 /* PBXContainerItemProxy */;
+		};
+		32B910321E1E438400594B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CustomModule;
+			targetProxy = 32B910311E1E438400594B10 /* PBXContainerItemProxy */;
+		};
+		32B910341E1E438400594B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CustomResource;
+			targetProxy = 32B910331E1E438400594B10 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

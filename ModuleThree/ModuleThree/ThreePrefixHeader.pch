@@ -11,6 +11,8 @@
 
 #import "ResourceReader.h"
 #import "UIViewAdditions.h"
+#import "UIImageView+WebCache.h"
+
 #define StotyboardName @"ThreeSB"
 #define bundleName @"ModuleThreeResource"
 #define UIImageNamed(imageName)           UIImageNamedFromBundle(imageName,bundleName)

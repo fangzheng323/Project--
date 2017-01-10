@@ -11,9 +11,26 @@
 		3270069C1E120899007C915C /* ModuleThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270069A1E120899007C915C /* ModuleThree.m */; };
 		3270069F1E1208A8007C915C /* moduleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 3270069E1E1208A8007C915C /* moduleInterface.h */; };
 		327006B31E125323007C915C /* query_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 327006B21E125323007C915C /* query_icon@2x.png */; };
+		3285DC5B1E1E234A001DC126 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC4F1E1E234A001DC126 /* img1.jpg */; };
+		3285DC5C1E1E234A001DC126 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC501E1E234A001DC126 /* img2.jpg */; };
+		3285DC5D1E1E234A001DC126 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC511E1E234A001DC126 /* img3.jpg */; };
+		3285DC5E1E1E234A001DC126 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC521E1E234A001DC126 /* img4.jpg */; };
+		3285DC5F1E1E234A001DC126 /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC531E1E234A001DC126 /* img5.jpg */; };
+		3285DC601E1E234A001DC126 /* img6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC541E1E234A001DC126 /* img6.jpg */; };
+		3285DC611E1E234A001DC126 /* img7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC551E1E234A001DC126 /* img7.jpg */; };
+		3285DC621E1E234A001DC126 /* img8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC561E1E234A001DC126 /* img8.jpg */; };
+		3285DC631E1E234A001DC126 /* img9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC571E1E234A001DC126 /* img9.jpg */; };
+		3285DC641E1E234A001DC126 /* img10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC581E1E234A001DC126 /* img10.jpg */; };
+		3285DC651E1E234A001DC126 /* img11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC591E1E234A001DC126 /* img11.jpg */; };
+		3285DC661E1E234A001DC126 /* img12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3285DC5A1E1E234A001DC126 /* img12.jpg */; };
 		3299A7281E1515DC00FF7487 /* FZLiveViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3299A7261E1515DC00FF7487 /* FZLiveViewController.h */; };
 		3299A7291E1515DC00FF7487 /* FZLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299A7271E1515DC00FF7487 /* FZLiveViewController.m */; };
 		329A3BB21E0D1E8300E24E20 /* ThreeSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329A3BB11E0D1E8300E24E20 /* ThreeSB.storyboard */; };
+		329A9E351E1CD80500BC5935 /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 329A9E341E1CD80500BC5935 /* pic.jpg */; };
+		32DBC3201E236BF700CF94B6 /* TimeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DBC31E1E236BF700CF94B6 /* TimeViewController.h */; };
+		32DBC3211E236BF700CF94B6 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DBC31F1E236BF700CF94B6 /* TimeViewController.m */; };
+		32DBC3241E236D0D00CF94B6 /* UIButton+time.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DBC3221E236D0D00CF94B6 /* UIButton+time.h */; };
+		32DBC3251E236D0D00CF94B6 /* UIButton+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DBC3231E236D0D00CF94B6 /* UIButton+time.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +39,18 @@
 		3270069E1E1208A8007C915C /* moduleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moduleInterface.h; sourceTree = "<group>"; };
 		327006A21E1210DA007C915C /* ThreePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreePrefixHeader.pch; sourceTree = "<group>"; };
 		327006B21E125323007C915C /* query_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "query_icon@2x.png"; sourceTree = "<group>"; };
+		3285DC4F1E1E234A001DC126 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		3285DC501E1E234A001DC126 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		3285DC511E1E234A001DC126 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		3285DC521E1E234A001DC126 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		3285DC531E1E234A001DC126 /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
+		3285DC541E1E234A001DC126 /* img6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img6.jpg; sourceTree = "<group>"; };
+		3285DC551E1E234A001DC126 /* img7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img7.jpg; sourceTree = "<group>"; };
+		3285DC561E1E234A001DC126 /* img8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img8.jpg; sourceTree = "<group>"; };
+		3285DC571E1E234A001DC126 /* img9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img9.jpg; sourceTree = "<group>"; };
+		3285DC581E1E234A001DC126 /* img10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img10.jpg; sourceTree = "<group>"; };
+		3285DC591E1E234A001DC126 /* img11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img11.jpg; sourceTree = "<group>"; };
+		3285DC5A1E1E234A001DC126 /* img12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img12.jpg; sourceTree = "<group>"; };
 		3299A7261E1515DC00FF7487 /* FZLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZLiveViewController.h; sourceTree = "<group>"; };
 		3299A7271E1515DC00FF7487 /* FZLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZLiveViewController.m; sourceTree = "<group>"; };
 		329A3B8B1E0D1D7600E24E20 /* ModuleThree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleThree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +58,11 @@
 		329A3BA01E0D1DC700E24E20 /* ModuleThreeResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleThreeResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		329A3BA21E0D1DC700E24E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		329A3BB11E0D1E8300E24E20 /* ThreeSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThreeSB.storyboard; sourceTree = "<group>"; };
+		329A9E341E1CD80500BC5935 /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic.jpg; sourceTree = "<group>"; };
+		32DBC31E1E236BF700CF94B6 /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		32DBC31F1E236BF700CF94B6 /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		32DBC3221E236D0D00CF94B6 /* UIButton+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+time.h"; sourceTree = "<group>"; };
+		32DBC3231E236D0D00CF94B6 /* UIButton+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+time.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +88,20 @@
 		327006B11E125323007C915C /* image */ = {
 			isa = PBXGroup;
 			children = (
+				3285DC4F1E1E234A001DC126 /* img1.jpg */,
+				3285DC501E1E234A001DC126 /* img2.jpg */,
+				3285DC511E1E234A001DC126 /* img3.jpg */,
+				3285DC521E1E234A001DC126 /* img4.jpg */,
+				3285DC531E1E234A001DC126 /* img5.jpg */,
+				3285DC541E1E234A001DC126 /* img6.jpg */,
+				3285DC551E1E234A001DC126 /* img7.jpg */,
+				3285DC561E1E234A001DC126 /* img8.jpg */,
+				3285DC571E1E234A001DC126 /* img9.jpg */,
+				3285DC581E1E234A001DC126 /* img10.jpg */,
+				3285DC591E1E234A001DC126 /* img11.jpg */,
+				3285DC5A1E1E234A001DC126 /* img12.jpg */,
 				327006B21E125323007C915C /* query_icon@2x.png */,
+				329A9E341E1CD80500BC5935 /* pic.jpg */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -64,6 +111,10 @@
 			children = (
 				3299A7261E1515DC00FF7487 /* FZLiveViewController.h */,
 				3299A7271E1515DC00FF7487 /* FZLiveViewController.m */,
+				32DBC31E1E236BF700CF94B6 /* TimeViewController.h */,
+				32DBC31F1E236BF700CF94B6 /* TimeViewController.m */,
+				32DBC3221E236D0D00CF94B6 /* UIButton+time.h */,
+				32DBC3231E236D0D00CF94B6 /* UIButton+time.m */,
 			);
 			path = ModuleThreeUI;
 			sourceTree = "<group>";
@@ -116,9 +167,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DBC3201E236BF700CF94B6 /* TimeViewController.h in Headers */,
 				3299A7281E1515DC00FF7487 /* FZLiveViewController.h in Headers */,
 				3270069F1E1208A8007C915C /* moduleInterface.h in Headers */,
 				3270069B1E120899007C915C /* ModuleThree.h in Headers */,
+				32DBC3241E236D0D00CF94B6 /* UIButton+time.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +262,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3285DC5E1E1E234A001DC126 /* img4.jpg in Resources */,
+				3285DC631E1E234A001DC126 /* img9.jpg in Resources */,
+				3285DC641E1E234A001DC126 /* img10.jpg in Resources */,
+				3285DC651E1E234A001DC126 /* img11.jpg in Resources */,
+				3285DC611E1E234A001DC126 /* img7.jpg in Resources */,
+				3285DC5F1E1E234A001DC126 /* img5.jpg in Resources */,
+				329A9E351E1CD80500BC5935 /* pic.jpg in Resources */,
+				3285DC5D1E1E234A001DC126 /* img3.jpg in Resources */,
+				3285DC601E1E234A001DC126 /* img6.jpg in Resources */,
+				3285DC5C1E1E234A001DC126 /* img2.jpg in Resources */,
+				3285DC621E1E234A001DC126 /* img8.jpg in Resources */,
+				3285DC661E1E234A001DC126 /* img12.jpg in Resources */,
+				3285DC5B1E1E234A001DC126 /* img1.jpg in Resources */,
 				327006B31E125323007C915C /* query_icon@2x.png in Resources */,
 				329A3BB21E0D1E8300E24E20 /* ThreeSB.storyboard in Resources */,
 			);
@@ -223,6 +289,8 @@
 			files = (
 				3299A7291E1515DC00FF7487 /* FZLiveViewController.m in Sources */,
 				3270069C1E120899007C915C /* ModuleThree.m in Sources */,
+				32DBC3251E236D0D00CF94B6 /* UIButton+time.m in Sources */,
+				32DBC3211E236BF700CF94B6 /* TimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +404,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ModuleThree/ThreePrefixHeader.pch;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../CommonTool";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../CommonTool",
+					"$(SRCROOT)/../CommonTool/SDWebImage",
+				);
 				INFOPLIST_FILE = ModuleThree/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -358,7 +429,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ModuleThree/ThreePrefixHeader.pch;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../CommonTool";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../CommonTool",
+					"$(SRCROOT)/../CommonTool/SDWebImage",
+				);
 				INFOPLIST_FILE = ModuleThree/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -1,0 +1,21 @@
+//
+//  customPch.pch
+//  CustomModule
+//
+//  Created by 方正 on 2017/1/5.
+//  Copyright © 2017年 fang. All rights reserved.
+//
+
+#ifndef customPch_pch
+#define customPch_pch
+
+#import "ResourceReader.h"
+#import "UIViewAdditions.h"
+#import "UIImageView+WebCache.h"
+
+#define StotyboardName @"CustomSB"
+#define bundleName @"CustomResource"
+#define UIImageNamed(imageName)           UIImageNamedFromBundle(imageName,bundleName)
+#define UIStoryBoardNamed(storyboardName) UIStoryBoardNamedFromBundle(storyboardName,bundleName)
+
+#endif /* customPch_pch */

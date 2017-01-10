@@ -44,7 +44,7 @@
     NSString *pageStr = [NSString stringWithFormat:@"%ld.json",page];
     [[GameManager shareManager] requestDetailListWith:pageStr listID:self.ID complete:^(id data, NSError *error) {
         [self.dataArr addObjectsFromArray:(NSArray*)data];
-        [self.collectionView.mj_footer endRefreshing];
+        [self.collectionView.mj_header endRefreshing];
         [self.collectionView.mj_footer endRefreshing];
         [self.collectionView reloadData];
     }]; }

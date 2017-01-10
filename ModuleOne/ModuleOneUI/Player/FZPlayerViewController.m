@@ -52,7 +52,7 @@
 - (void)beginPlay
 {
     NSString *filePath = [NSString stringWithFormat:@"%@%@.m3u8",URL,self.videoID];
-    
+//    filePath = [filePath stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet characterSetWithCharactersInString:filePath]];
     filePath = [filePath stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
     self.playerItem = [AVPlayerItem playerItemWithURL:[NSURL URLWithString:filePath]];

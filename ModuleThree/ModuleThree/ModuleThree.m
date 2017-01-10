@@ -18,9 +18,9 @@
     return UIImageNamed(@"query_icon");
 }
 - (UIViewController*)entryViewController{
-    if (!_entryViewController) {
+//    if (!_entryViewController) {
         _entryViewController = UIStoryBoardNamed(@"ThreeSB").instantiateInitialViewController;
-    }
+//    }
     return _entryViewController;
 }
 @end

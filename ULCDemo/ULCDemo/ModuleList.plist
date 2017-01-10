@@ -4,5 +4,6 @@
 <array>
 	<string>moduleTwo</string>
 	<string>ModuleThree</string>
+	<string>customModule</string>
 </array>
 </plist>

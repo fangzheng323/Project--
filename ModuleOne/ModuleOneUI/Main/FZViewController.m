@@ -41,11 +41,11 @@
     imageView.contentMode = UIViewContentModeScaleToFill;
     imageView.clipsToBounds = YES;
     [self.view addSubview:imageView];
-//    UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
-//    UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:blur];
-//    effectView.frame = imageView.frame;
+    UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+    UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:blur];
+    effectView.frame = imageView.frame;
 //    effectView.alpha = 0.75;
-//    [self.view addSubview:effectView];
+    [self.view addSubview:effectView];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
