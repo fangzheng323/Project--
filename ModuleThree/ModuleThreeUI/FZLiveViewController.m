@@ -46,13 +46,16 @@
         image.tag = 10+i;
         [image sd_setImageWithURL:[NSURL URLWithString:arr[i]] placeholderImage:UIImageNamed(@"img12.jpg")];
         [self.scrollView addSubview:image];
+        
         SDWebImageManager *mag = [SDWebImageManager sharedManager];
         UIImage *im = [mag.imageCache imageFromMemoryCacheForKey:arr[i]];
         NSLog(@"%f",im.size.width);
         image.userInteractionEnabled = YES;
-        UIControl *control = [[UIControl alloc] initWithFrame:image.frame];
-        [control addTarget:self action:@selector(touchBtn) forControlEvents:UIControlEventTouchUpInside];
-        [image addSubview:control];
+        if (i==0) {
+            UIControl *control = [[UIControl alloc] initWithFrame:image.frame];
+            [control addTarget:self action:@selector(touchBtn) forControlEvents:UIControlEventTouchUpInside];
+            [image addSubview:control];
+        }
     }
     
     

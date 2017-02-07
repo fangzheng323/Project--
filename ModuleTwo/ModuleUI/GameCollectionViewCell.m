@@ -24,13 +24,13 @@
 - (void)setListModel:(GameTypeList *)listModel
 {
     _listModel = listModel;
-    [self.iconImage sd_setImageWithURL:[NSURL URLWithString:listModel.spic] placeholderImage:UIImageNamed(@"minebg")];
+    [self.iconImage sd_setImageWithURL:[NSURL URLWithString:listModel.spic] placeholderImage:UIImageNamed(@"minebg.jpg")];
     self.titleLab.text = listModel.name;
 }
 - (void)setDetail:(GameDetailModel *)detail
 {
     _detail = detail;
-    [self.iconImage sd_setImageWithURL:[NSURL URLWithString:_detail.spic] placeholderImage:UIImageNamed(@"minebg")];
+    [self.iconImage sd_setImageWithURL:[NSURL URLWithString:_detail.spic] placeholderImage:UIImageNamed(@"minebg.jpg")];
     self.titleLab.text = _detail.title;
 }
 - (void)loadUI

@@ -20,9 +20,10 @@ NSInteger count = 60;
 - (void)move:(NSTimer*)timer
 {
 //    NSInteger count = [timer.userInfo integerValue];
-    if (count==0) {
+    if (count==-1) {
 //        timer = nil;
         [timer invalidate];
+        return;
     }
     [self setTitle:[NSString stringWithFormat:@"%ld秒",count] forState:UIControlStateNormal];
     count--;

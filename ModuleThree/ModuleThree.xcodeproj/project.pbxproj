@@ -27,6 +27,8 @@
 		3299A7291E1515DC00FF7487 /* FZLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299A7271E1515DC00FF7487 /* FZLiveViewController.m */; };
 		329A3BB21E0D1E8300E24E20 /* ThreeSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329A3BB11E0D1E8300E24E20 /* ThreeSB.storyboard */; };
 		329A9E351E1CD80500BC5935 /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 329A9E341E1CD80500BC5935 /* pic.jpg */; };
+		32B67C731E24C93E00AD439E /* RefreshViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B67C711E24C93E00AD439E /* RefreshViewController.h */; };
+		32B67C741E24C93E00AD439E /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B67C721E24C93E00AD439E /* RefreshViewController.m */; };
 		32DBC3201E236BF700CF94B6 /* TimeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DBC31E1E236BF700CF94B6 /* TimeViewController.h */; };
 		32DBC3211E236BF700CF94B6 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DBC31F1E236BF700CF94B6 /* TimeViewController.m */; };
 		32DBC3241E236D0D00CF94B6 /* UIButton+time.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DBC3221E236D0D00CF94B6 /* UIButton+time.h */; };
@@ -59,6 +61,8 @@
 		329A3BA21E0D1DC700E24E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		329A3BB11E0D1E8300E24E20 /* ThreeSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThreeSB.storyboard; sourceTree = "<group>"; };
 		329A9E341E1CD80500BC5935 /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic.jpg; sourceTree = "<group>"; };
+		32B67C711E24C93E00AD439E /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
+		32B67C721E24C93E00AD439E /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
 		32DBC31E1E236BF700CF94B6 /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
 		32DBC31F1E236BF700CF94B6 /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
 		32DBC3221E236D0D00CF94B6 /* UIButton+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+time.h"; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				32DBC31F1E236BF700CF94B6 /* TimeViewController.m */,
 				32DBC3221E236D0D00CF94B6 /* UIButton+time.h */,
 				32DBC3231E236D0D00CF94B6 /* UIButton+time.m */,
+				32B67C711E24C93E00AD439E /* RefreshViewController.h */,
+				32B67C721E24C93E00AD439E /* RefreshViewController.m */,
 			);
 			path = ModuleThreeUI;
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 				3270069F1E1208A8007C915C /* moduleInterface.h in Headers */,
 				3270069B1E120899007C915C /* ModuleThree.h in Headers */,
 				32DBC3241E236D0D00CF94B6 /* UIButton+time.h in Headers */,
+				32B67C731E24C93E00AD439E /* RefreshViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3299A7291E1515DC00FF7487 /* FZLiveViewController.m in Sources */,
+				32B67C741E24C93E00AD439E /* RefreshViewController.m in Sources */,
 				3270069C1E120899007C915C /* ModuleThree.m in Sources */,
 				32DBC3251E236D0D00CF94B6 /* UIButton+time.m in Sources */,
 				32DBC3211E236BF700CF94B6 /* TimeViewController.m in Sources */,
@@ -407,6 +415,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../CommonTool",
 					"$(SRCROOT)/../CommonTool/SDWebImage",
+					"$(SRCROOT)/../CommonTool/MJRefresh/**",
 				);
 				INFOPLIST_FILE = ModuleThree/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -432,6 +441,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../CommonTool",
 					"$(SRCROOT)/../CommonTool/SDWebImage",
+					"$(SRCROOT)/../CommonTool/MJRefresh/**",
 				);
 				INFOPLIST_FILE = ModuleThree/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

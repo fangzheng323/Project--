@@ -48,7 +48,7 @@
             [list getDataWithArr:diction];
             [tempArr addObject:list];
         }
-        complete(tempArr,nil);
+         complete(tempArr,nil);
     } failure:^(NSError *erro) {
         complete(nil,erro);
     } showHUD:nil];

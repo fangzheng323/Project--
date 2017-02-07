@@ -55,6 +55,8 @@
 //    filePath = [filePath stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet characterSetWithCharactersInString:filePath]];
     filePath = [filePath stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
+    NSLog(@"url==%@",filePath);
+    
     self.playerItem = [AVPlayerItem playerItemWithURL:[NSURL URLWithString:filePath]];
     self.player = [AVPlayer playerWithPlayerItem:self.playerItem];
 //    self.playerView.player = self.player;

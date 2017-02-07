@@ -37,14 +37,14 @@
     } showHUD:nil];
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 64, self.view.width, self.view.height-108)];
-    imageView.image = UIImageNamed(@"minebg");
+    imageView.image = UIImageNamed(@"minebg.jpg");
     imageView.contentMode = UIViewContentModeScaleToFill;
     imageView.clipsToBounds = YES;
     [self.view addSubview:imageView];
     UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
     UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:blur];
     effectView.frame = imageView.frame;
-//    effectView.alpha = 0.75;
+    effectView.alpha = 0.75;
     [self.view addSubview:effectView];
 }
 
